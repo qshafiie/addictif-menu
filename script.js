@@ -1,20 +1,20 @@
 const menuItems = [
     {
     category: "Starters",
-    name: "Sweet Potato Fries",
-    description: "Thick-cut sweet potato wedges fried to a rich golden-orange finish with a delicately crisp exterior. Served with a side of our signature creamy dipping sauce.",
-    price: "30",
-    image: "menuItems/Crispy Sweet Potato Fries.jpeg",
-    tags: ["420 kcal"]
-    },
-
-    {
-    category: "Starters",
     name: "French Fries",
     description: "Crispy, golden-fried classic french fries seasoned with a light dusting of sea salt and garnished with fresh basil leaves. Served with a side of our special creamy dipping sauce.",
     price: "24",
     image: "menuItems/French Fries.jpeg",
     tags: ["380 kcal"]
+    },
+    
+    {
+    category: "Starters",
+    name: "Sweet Potato Fries",
+    description: "Thick-cut sweet potato wedges fried to a rich golden-orange finish with a delicately crisp exterior. Served with a side of our signature creamy dipping sauce.",
+    price: "30",
+    image: "menuItems/Crispy Sweet Potato Fries.jpeg",
+    tags: ["420 kcal"]
     },
     
     {
@@ -36,6 +36,15 @@ const menuItems = [
     },
 
     {
+    category: "Starters",
+    name: "Starter Platter",
+    description: "A sharing platter featuring a mix of best-selling starters. Crispy shrimp tempura, golden onion rings, and classic fries—perfectly fried for a crunchy, indulgent meal.",
+    price: "75",
+    image: "menuItems/Starter Platter.jpg",
+    tags: ["950 kcal"]
+    },
+
+    {
     category: "Soups",
     name: "Asian Beef Soup",
     description: "A comforting, aromatic clear broth packed with tender chunks of slow-cooked beef, sweet carrots, potatoes, and vine-ripened tomatoes. Garnished with fresh mint, scallions, and a sprinkle of crispy fried shallots for an authentic touch of texture. Served alongside thick slices of warm, lightly toasted baguette.",
@@ -53,14 +62,6 @@ const menuItems = [
     tags: ["380 kcal"]
     },
 
-    {
-    category: "Main",
-    name: "Starter Platter",
-    description: "A sharing platter featuring a mix of best-selling starters. Crispy shrimp tempura, golden onion rings, and classic fries—perfectly fried for a crunchy, indulgent meal.",
-    price: "75",
-    image: "menuItems/Starter Platter.jpg",
-    tags: ["750 kcal"]
-    },
     {
     category: "Main",
     name: "Lemon Garlic Mussels",
