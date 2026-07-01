@@ -93,6 +93,15 @@ const menuItems = [
 
 ];
 
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+ // Show popup automatically when page loads
+window.onload = function () {
+  document.getElementById("popup").style.display = "flex";
+};
+
 function slugify(str){
   return str.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
